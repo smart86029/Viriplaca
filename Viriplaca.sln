@@ -8,9 +8,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viriplaca.Common", "src\Viriplaca.Common\Viriplaca.Common.csproj", "{84DFDBBD-9D90-42C4-ABD3-81867160ABA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Viriplaca.Common", "src\Viriplaca.Common\Viriplaca.Common.csproj", "{84DFDBBD-9D90-42C4-ABD3-81867160ABA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viriplaca.Common.UnitTests", "tests\Viriplaca.Common.UnitTests\Viriplaca.Common.UnitTests.csproj", "{572F7AA7-A973-4B7F-A25E-20089C6639D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Viriplaca.Common.UnitTests", "tests\Viriplaca.Common.UnitTests\Viriplaca.Common.UnitTests.csproj", "{572F7AA7-A973-4B7F-A25E-20089C6639D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Viriplaca.Identity", "Viriplaca.Identity", "{A6096633-FACF-4154-9F72-2317CBD19930}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viriplaca.Identity.Api", "src\Viriplaca.Identity.Api\Viriplaca.Identity.Api.csproj", "{CA3BCE84-3CE6-4942-9B02-948320E6F8B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Viriplaca.Identity.App", "src\Viriplaca.Identity.App\Viriplaca.Identity.App.csproj", "{A41819F8-DBAE-4E47-A1C6-427D7F7C03B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Viriplaca.Identity.Data", "src\Viriplaca.Identity.Data\Viriplaca.Identity.Data.csproj", "{27B337AC-75AF-4DF9-91C8-C3B544965C5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Viriplaca.Identity.Domain", "src\Viriplaca.Identity.Domain\Viriplaca.Identity.Domain.csproj", "{2BCE026E-4978-4B0D-BB89-C55E3C6C18F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Viriplaca.Identity.Domain.UnitTests", "tests\Viriplaca.Identity.Domain.UnitTests\Viriplaca.Identity.Domain.UnitTests.csproj", "{37B7CB5D-A793-4172-92AC-E24548360344}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,9 +38,36 @@ Global
 		{572F7AA7-A973-4B7F-A25E-20089C6639D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{572F7AA7-A973-4B7F-A25E-20089C6639D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{572F7AA7-A973-4B7F-A25E-20089C6639D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3BCE84-3CE6-4942-9B02-948320E6F8B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3BCE84-3CE6-4942-9B02-948320E6F8B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3BCE84-3CE6-4942-9B02-948320E6F8B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3BCE84-3CE6-4942-9B02-948320E6F8B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A41819F8-DBAE-4E47-A1C6-427D7F7C03B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41819F8-DBAE-4E47-A1C6-427D7F7C03B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41819F8-DBAE-4E47-A1C6-427D7F7C03B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41819F8-DBAE-4E47-A1C6-427D7F7C03B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27B337AC-75AF-4DF9-91C8-C3B544965C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B337AC-75AF-4DF9-91C8-C3B544965C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B337AC-75AF-4DF9-91C8-C3B544965C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B337AC-75AF-4DF9-91C8-C3B544965C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BCE026E-4978-4B0D-BB89-C55E3C6C18F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BCE026E-4978-4B0D-BB89-C55E3C6C18F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BCE026E-4978-4B0D-BB89-C55E3C6C18F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BCE026E-4978-4B0D-BB89-C55E3C6C18F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37B7CB5D-A793-4172-92AC-E24548360344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B7CB5D-A793-4172-92AC-E24548360344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B7CB5D-A793-4172-92AC-E24548360344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B7CB5D-A793-4172-92AC-E24548360344}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA3BCE84-3CE6-4942-9B02-948320E6F8B9} = {A6096633-FACF-4154-9F72-2317CBD19930}
+		{A41819F8-DBAE-4E47-A1C6-427D7F7C03B6} = {A6096633-FACF-4154-9F72-2317CBD19930}
+		{27B337AC-75AF-4DF9-91C8-C3B544965C5E} = {A6096633-FACF-4154-9F72-2317CBD19930}
+		{2BCE026E-4978-4B0D-BB89-C55E3C6C18F7} = {A6096633-FACF-4154-9F72-2317CBD19930}
+		{37B7CB5D-A793-4172-92AC-E24548360344} = {A6096633-FACF-4154-9F72-2317CBD19930}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7323E3A9-F3A3-46F8-9A90-0E12E67BDA38}
