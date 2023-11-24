@@ -977,6 +977,11 @@ public static class ConvertExtensions
         return TryConvert(() => Convert.ToDecimal(value), defaultValue);
     }
 
+    public static string ToBase64String(this byte[] bytes)
+    {
+        return bytes is null ? string.Empty : Convert.ToBase64String(bytes);
+    }
+
     public static Guid ToGuid(this string value, Guid defaultValue = default)
     {
         return Guid.TryParse(value, out var result) ? result : defaultValue;
